@@ -1,0 +1,3 @@
+/Users/alexbeck/Documents/CLionProjects/spartan-hero/cmake-build-debug/_deps/spartanhero-resources-subbuild/CMakeFiles/spartanhero-resources-populate.dir
+/Users/alexbeck/Documents/CLionProjects/spartan-hero/cmake-build-debug/_deps/spartanhero-resources-subbuild/CMakeFiles/edit_cache.dir
+/Users/alexbeck/Documents/CLionProjects/spartan-hero/cmake-build-debug/_deps/spartanhero-resources-subbuild/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/alexbeck/Documents/CLionProjects/spartan-hero/cmake-build-debug/_deps/spartanhero-resources-subbuild/CMakeFiles/spartanhero-resources-populate"
+		},
+		{
+			"file" : "/Users/alexbeck/Documents/CLionProjects/spartan-hero/cmake-build-debug/_deps/spartanhero-resources-subbuild/CMakeFiles/spartanhero-resources-populate.rule"
+		},
+		{
+			"file" : "/Users/alexbeck/Documents/CLionProjects/spartan-hero/cmake-build-debug/_deps/spartanhero-resources-subbuild/CMakeFiles/spartanhero-resources-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/alexbeck/Documents/CLionProjects/spartan-hero/cmake-build-debug/_deps/spartanhero-resources-subbuild/spartanhero-resources-populate-prefix/src/spartanhero-resources-populate-stamp/spartanhero-resources-populate-build.rule"
+		},
+		{
+			"file" : "/Users/alexbeck/Documents/CLionProjects/spartan-hero/cmake-build-debug/_deps/spartanhero-resources-subbuild/spartanhero-resources-populate-prefix/src/spartanhero-resources-populate-stamp/spartanhero-resources-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/alexbeck/Documents/CLionProjects/spartan-hero/cmake-build-debug/_deps/spartanhero-resources-subbuild/spartanhero-resources-populate-prefix/src/spartanhero-resources-populate-stamp/spartanhero-resources-populate-download.rule"
+		},
+		{
+			"file" : "/Users/alexbeck/Documents/CLionProjects/spartan-hero/cmake-build-debug/_deps/spartanhero-resources-subbuild/spartanhero-resources-populate-prefix/src/spartanhero-resources-populate-stamp/spartanhero-resources-populate-install.rule"
+		},
+		{
+			"file" : "/Users/alexbeck/Documents/CLionProjects/spartan-hero/cmake-build-debug/_deps/spartanhero-resources-subbuild/spartanhero-resources-populate-prefix/src/spartanhero-resources-populate-stamp/spartanhero-resources-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/alexbeck/Documents/CLionProjects/spartan-hero/cmake-build-debug/_deps/spartanhero-resources-subbuild/spartanhero-resources-populate-prefix/src/spartanhero-resources-populate-stamp/spartanhero-resources-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/alexbeck/Documents/CLionProjects/spartan-hero/cmake-build-debug/_deps/spartanhero-resources-subbuild/spartanhero-resources-populate-prefix/src/spartanhero-resources-populate-stamp/spartanhero-resources-populate-test.rule"
+		},
+		{
+			"file" : "/Users/alexbeck/Documents/CLionProjects/spartan-hero/cmake-build-debug/_deps/spartanhero-resources-subbuild/spartanhero-resources-populate-prefix/src/spartanhero-resources-populate-stamp/spartanhero-resources-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"spartanhero-resources-populate"
+		],
+		"name" : "spartanhero-resources-populate"
+	}
+}

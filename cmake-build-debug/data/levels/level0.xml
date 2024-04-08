@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<level size="1304,900">
+	<audio>
+		<sound name="BACK" audio="fight-song/fight-song-back-100.mp3" />
+		<sound name="C4" audio="trumpet/C4.wav" />
+		<sound name="Db4" audio="trumpet/Db4.wav" />
+		<sound name="Eb4" audio="trumpet/Eb4.wav" />
+		<sound name="E4" audio="trumpet/E4.wav" />
+		<sound name="F4" audio="trumpet/F4.wav" />
+		<sound name="Gb4" audio="trumpet/Gb4.wav" />
+		<sound name="G4" audio="trumpet/G4.wav" />
+		<sound name="Ab4" audio="trumpet/Ab4.wav" />
+		<sound name="Bb4" audio="trumpet/Bb4.wav" />
+		<sound name="B4" audio="trumpet/B4.wav" />
+		<sound name="C5" audio="trumpet/C5.wav" />
+		<sound name="Db5" audio="trumpet/Db5.wav" />
+		<sound name="Eb5" audio="trumpet/Eb5.wav" />
+		<sound name="E5" audio="trumpet/E5.wav" />
+		<sound name="F5" audio="trumpet/F5.wav" />
+		<sound name="G5" audio="trumpet/G5.wav" />
+		<sound name="Gb5" audio="trumpet/Gb5.wav" />
+		<sound name="Ab5" audio="trumpet/Ab5.wav" />
+		<sound name="Bb5" audio="trumpet/Bb5.wav" />
+		<sound name="C6" audio="trumpet/C6.wav" />
+		<sound name="C4-long" audio="trumpet/C4-long.wav" long="true" />
+		<sound name="Eb4-long" audio="trumpet/Eb4-long.wav" long="true" />
+		<sound name="E4-long" audio="trumpet/E4-long.wav" long="true" />
+		<sound name="F4-long" audio="trumpet/F4-long.wav" long="true" />
+		<sound name="G4-long" audio="trumpet/G4-long.wav" long="true" />
+		<sound name="Ab4-long" audio="trumpet/Ab4-long.wav" long="true" />
+		<sound name="Bb4-long" audio="trumpet/Bb4-long.wav" long="true" />
+		<sound name="B4-long" audio="trumpet/B4-long.wav" long="true" />
+		<sound name="C5-long" audio="trumpet/C5-long.wav" long="true" />
+		<sound name="Db5-long" audio="trumpet/Db5-long.wav" long="true" />
+		<sound name="Eb5-long" audio="trumpet/Eb5-long.wav" long="true" />
+		<sound name="E5-long" audio="trumpet/E5-long.wav" long="true" />
+		<sound name="F5-long" audio="trumpet/F5-long.wav" long="true" />
+		<sound name="G5-long" audio="trumpet/G5-long.wav" long="true" />
+		<sound name="Ab5-long" audio="trumpet/Ab5-long.wav" long="true" />
+		<sound name="Bb5-long" audio="trumpet/Bb5-long.wav" long="true" />
+		<sound name="B5-long" audio="trumpet/B5-long.wav" long="true" />
+		<sound name="C6-long" audio="trumpet/C6-long.wav" long="true" />
+	</audio>
+	<declarations>
+		<image id="i600" size="1304,900" image="background1.png" />
+		<sound-board id="i622" size="726,545" size-beats="4" top-width="300" image="sound-board.png" cover="sound-board-cover.png" />
+		<score-board id="i871" size="200,136" image="score-board.png" />
+		<meter id="i921" size="200,136" image="meter-back.png" needle="meter-needle.png" cover="meter-cover.png" />
+		<note id="t1" track="1" image="puck-a.png" size="60,60" tolerance="0.5" />
+		<note id="t2" track="2" image="puck-s.png" size="60,60" tolerance="0.5" />
+		<note id="t3" track="3" image="puck-d.png" size="60,60" tolerance="0.5" />
+		<note id="t4" track="4" image="puck-f.png" size="60,60" tolerance="0.5" />
+		<note id="t7" track="7" image="puck-j.png" size="60,60" tolerance="0.5" />
+		<note id="t8" track="8" image="puck-k.png" size="60,60" tolerance="0.5" />
+		<note id="t9" track="9" image="puck-l.png" size="60,60" tolerance="0.5" />
+		<note id="t10" track="10" image="puck-semi.png" size="60,60" tolerance="0.5" />
+	</declarations>
+	<items>
+		<image id="i600" p="652,450"/>
+		<sound-board id="i622" p="652,465">
+			<track track="1" key-image="key-a.png" key-size="88,66" key="A" />
+			<track track="2" key-image="key-s.png" key-size="88,66" key="S" />
+			<track track="3" key-image="key-d.png" key-size="88,66" key="D" />
+			<track track="4" key-image="key-f.png" key-size="88,66" key="F" />
+			<track track="7" key-image="key-j.png" key-size="88,66" key="J" />
+			<track track="8" key-image="key-k.png" key-size="88,66" key="K" />
+			<track track="9" key-image="key-l.png" key-size="88,66" key="L" />
+			<track track="10" key-image="key-semi.png" key-size="88,66" key=";" />
+		</sound-board>
+		<score-board id="i871" p="270,363" />
+		<meter id="i921" p="1027,362" />
+	</items>
+	<music beats-per-minute="100.0" beats-per-measure="4" measures="9" backing="BACK">
+		<note id="t1" sound="Eb4" measure="1" beat="4.25" duration="0.25"/>
+		<note id="t2" sound="F4" measure="1" beat="4.5" duration="0.25"/>
+		<note id="t4" sound="G4" measure="1" beat="4.75" duration="0.25"/>
+		<note id="t7" sound="Ab4" measure="2" beat="1.0" duration="0.25"/>
+		<note id="t7" sound="Ab4" measure="2" beat="3.0" duration="0.25"/>
+		<note id="t7" sound="Ab4" measure="3" beat="1.0" duration="0.25"/>
+		<note id="t7" sound="Ab4" measure="3" beat="2.0" duration="0.25"/>
+		<note id="t7" sound="Ab4" measure="3" beat="3.0" duration="0.25"/>
+		<note id="t2" sound="F4" measure="4" beat="1.0" duration="0.25"/>
+		<note id="t1" sound="Eb4" measure="4" beat="1.5" duration="0.25"/>
+		<note id="t2" sound="F4" measure="4" beat="2.0" duration="0.25"/>
+		<note id="t3" sound="Gb4" measure="4" beat="2.5" duration="0.25"/>
+		<note id="t4" sound="G4" measure="4" beat="3.0" duration="0.25"/>
+		<note id="t1" sound="Eb4-long" measure="4" beat="3.5" duration="1.5"/>
+		<note id="t7" sound="Ab4-long" measure="5" beat="1.0" duration="3.0"/>
+		<note id="t10" sound="C5" measure="5" beat="4.0" duration="0.5"/>
+		<note id="t9" sound="B4" measure="5" beat="4.5" duration="0.5"/>
+		<note id="t10" sound="C5-long" measure="6" beat="1.0" duration="1.0"/>
+		<note id="t1" sound="Eb4-long" measure="6" beat="2.0" duration="1.0"/>
+		<note id="t2" sound="F4-long" measure="6" beat="3.0" duration="1.0"/>
+		<note id="t4" sound="G4-long" measure="6" beat="4.0" duration="1.0"/>
+		<note id="t7" sound="Ab4-long" measure="7" beat="1.0" duration="1.0"/>
+		<note id="t10" sound="C5-long" measure="7" beat="2.0" duration="2.0"/>
+		<note id="t10" sound="C5" measure="7" beat="4.0" duration="0.5"/>
+		<note id="t9" sound="B4" measure="7" beat="4.5" duration="0.5"/>
+		<note id="t10" sound="C5-long" measure="8" beat="1.0" duration="1.0"/>
+		<note id="t1" sound="Eb4-long" measure="8" beat="2.0" duration="1.0"/>
+		<note id="t2" sound="F4-long" measure="8" beat="3.0" duration="1.0"/>
+		<note id="t4" sound="G4-long" measure="8" beat="4.0" duration="1.0"/>
+		<note id="t7" sound="Ab4-long" measure="9" beat="1.0" duration="2.75"/>
+
+	</music>
+</level>

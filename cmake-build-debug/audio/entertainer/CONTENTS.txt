@@ -1,0 +1,8 @@
+The Entertainer by Scott Joplin
+
+Backing track without lead piano track
+
+entertainer-90.mp3      90bpm version
+entertainer-120.mp3     120bpm version (normal speed)
+
+

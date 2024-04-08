@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<level size="1500,1035">
+	<audio>
+		<sound name="BACK" audio="canon/canon-70.mp3" />
+		<sound name="A3" audio="piano/A3.wav" volume="0.15"/>
+		<sound name="A3-long" audio="piano/A3-long.mp3" long="true" volume="0.15"/>
+		<sound name="A4" audio="piano/A4.wav" volume="0.15"/>
+		<sound name="A4-long" audio="piano/A4-long.mp3" long="true" volume="0.15"/>
+		<sound name="B4-long" audio="piano/B4-long.mp3" long="true" volume="0.15"/>
+		<sound name="A5-long" audio="piano/A5-long.mp3" long="true" volume="0.15"/>
+		<sound name="B3-long" audio="piano/B3-long.mp3" long="true" volume="0.15"/>
+		<sound name="A5" audio="piano/A5.wav" volume="0.15"/>
+		<sound name="Ab3" audio="piano/Ab3.wav" volume="0.15"/>
+		<sound name="B3" audio="piano/B3.wav" volume="0.15"/>
+		<sound name="B4" audio="piano/B4.wav" volume="0.15"/>
+		<sound name="B5" audio="piano/B5.wav" volume="0.15"/>
+		<sound name="B5-long" audio="piano/B5-long.mp3" long="true" volume="0.15"/>
+		<sound name="Bb5" audio="piano/Bb5.wav" volume="0.15"/>
+		<sound name="C4" audio="piano/C4.wav" volume="0.15"/>
+		<sound name="C4-long" audio="piano/C4-long.mp3" volume="0.15"/>
+		<sound name="C3-long" audio="piano/C3-long.mp3" volume="0.15"/>
+		<sound name="C5" audio="piano/C5.wav" volume="0.15"/>
+		<sound name="C5-long" audio="piano/C5-long.mp3" long="true" volume="0.15"/>
+		<sound name="C6" audio="piano/C6.wav" volume="0.15"/>
+		<sound name="D4" audio="piano/D4.wav" volume="0.15"/>
+		<sound name="D5" audio="piano/D5.wav" volume="0.15"/>
+		<sound name="Db5-long" audio="piano/Db5-long.mp3" long="true" volume="0.15"/>
+		<sound name="D5-long" audio="piano/D5-long.mp3" long="true" volume="0.15"/>
+		<sound name="D6-long" audio="piano/D5-long.mp3" long="true" volume="0.15"/>
+		<sound name="D4-long" audio="piano/D4-long.mp3" long="true" volume="0.15"/>
+		<sound name="D6" audio="piano/D6.wav" volume="0.15"/>
+		<sound name="E4" audio="piano/E4.wav" volume="0.15"/>
+		<sound name="E5" audio="piano/E5.wav" volume="0.15"/>
+		<sound name="E4-long" audio="piano/E4-long.mp3" long="true" volume="0.15"/>
+		<sound name="E5-long" audio="piano/E5-long.mp3" long="true" volume="0.15"/>
+		<sound name="Eb4" audio="piano/Eb4.wav" volume="0.15"/>
+		<sound name="Eb5" audio="piano/Eb5.wav" volume="0.15"/>
+		<sound name="E6" audio="piano/E6.wav" volume="0.15"/>
+		<sound name="F5" audio="piano/F5.wav" volume="0.15"/>
+		<sound name="G3" audio="piano/G3.wav" volume="0.15"/>
+		<sound name="G4" audio="piano/G4.wav" volume="0.15"/>
+		<sound name="Gb4-long" audio="piano/Gb4-long.mp3" long="true" volume="0.15"/>
+		<sound name="G5" audio="piano/G5.wav" volume="0.15"/>
+		<sound name="G5-long" audio="piano/G5-long.mp3" long="true" volume="0.15"/>
+		<sound name="G4-long" audio="piano/G4-long.mp3" long="true" volume="0.15"/>
+		<sound name="Gb4" audio="piano/Gb4.wav" volume="0.15"/>
+		<sound name="Gb5" audio="piano/Gb5.wav" volume="0.15"/>
+		<sound name="Db5" audio="piano/Db5.wav" volume="0.15"/>
+		<sound name="Db6" audio="piano/Db6.wav" volume="0.15"/>
+		<sound name="Db6-long" audio="piano/Db6-long.mp3" long="true" volume="0.15"/>
+		<sound name="Gb5-long" audio="piano/Gb5-long.mp3" long="true" volume="0.15"/>
+	</audio>
+	<declarations>
+		<image id="i600" size="1500,1035" image="background1.png" />
+		<image id="i601" size="230,230" image="guitar-guy-1.png" />
+		<image id="i603" size="247,409" image="guitar-guy-2.png" />
+		<sound-board id="i622" size="835,627" size-beats="4" top-width="345" image="sound-board.png" cover="sound-board-cover.png" />
+		<score-board id="i871" size="288,195" image="score-board.png" />
+		<meter id="i921" size="288,195" image="meter-back.png" needle="meter-needle.png" cover="meter-cover.png" />
+		<note id="t1" track="1" image="puck-a.png" size="70,70" tolerance="0.5" />
+		<note id="t2" track="2" image="puck-s.png" size="70,70" tolerance="0.5" />
+		<note id="t3" track="3" image="puck-d.png" size="70,70" tolerance="0.5" />
+		<note id="t4" track="4" image="puck-f.png" size="70,70" tolerance="0.5" />
+		<note id="t5" track="5" image="puck-g.png" size="70,70" tolerance="0.5" />
+		<note id="t6" track="6" image="puck-h.png" size="70,70" tolerance="0.5" />
+		<note id="t7" track="7" image="puck-j.png" size="70,70" tolerance="0.5" />
+		<note id="t8" track="8" image="puck-k.png" size="70,70" tolerance="0.5" />
+		<note id="t9" track="9" image="puck-l.png" size="70,70" tolerance="0.5" />
+		<note id="t10" track="10" image="puck-semi.png" size="70,70" tolerance="0.5" />
+	</declarations>
+	<items>
+		<image id="i600" p="750,517"/>
+		<image id="i601" p="247,753"/>
+		<image id="i603" p="1230,656"/>
+		<sound-board id="i622" p="750,535">
+			<track track="1" key-image="key-a.png" key-size="88,66" key="A" />
+			<track track="2" key-image="key-s.png" key-size="88,66" key="S" />
+			<track track="3" key-image="key-d.png" key-size="88,66" key="D" />
+			<track track="4" key-image="key-f.png" key-size="88,66" key="F" />
+			<track track="5" key-image="key-g.png" key-size="88,66" key="G" />
+			<track track="6" key-image="key-h.png" key-size="88,66" key="H" />
+			<track track="7" key-image="key-j.png" key-size="88,66" key="J" />
+			<track track="8" key-image="key-k.png" key-size="88,66" key="K" />
+			<track track="9" key-image="key-l.png" key-size="88,66" key="L" />
+			<track track="10" key-image="key-semi.png" key-size="88,66" key=";" />
+		</sound-board>
+
+		<score-board id="i871" p="1165,345" />
+		<meter id="i921" p="335,345" />
+	</items>
+	<music beats-per-minute="70" beats-per-measure="4" measures="35" backing="BACK">
+		<note id="t7" sound="Gb5-long" measure="1" beat="1.0" duration="2"/>
+		<note id="t6" sound="E5-long" measure="1" beat="3.0" duration="2"/>
+		<note id="t5" sound="D5-long" measure="2" beat="1.0" duration="2"/>
+		<note id="t4" sound="Db5-long" measure="2" beat="3.0" duration="2"/>
+		<note id="t3" sound="B4-long" measure="3" beat="1.0" duration="2"/>
+		<note id="t2" sound="A4-long" measure="3" beat="3.0" duration="2"/>
+		<note id="t3" sound="B4-long" measure="4" beat="1.0" duration="2"/>
+		<note id="t4" sound="Db5-long" measure="4" beat="3.0" duration="2"/>
+		<note id="t7" sound="Gb5-long" measure="5" beat="1.0" duration="2"/>
+		<note id="t6" sound="D5-long" measure="5" beat="1.0" duration="2"/>
+		<note id="t6" sound="E5-long" measure="5" beat="3.0" duration="2"/>
+		<note id="t5" sound="Db5-long" measure="5" beat="3.0" duration="2"/>
+		<note id="t5" sound="D5-long" measure="6" beat="1.0" duration="2"/>
+		<note id="t4" sound="B4-long" measure="6" beat="1.0" duration="2"/>
+		<note id="t4" sound="Db5-long" measure="6" beat="3.0" duration="2"/>
+		<note id="t3" sound="A4-long" measure="6" beat="3.0" duration="2"/>
+		<note id="t3" sound="B4-long" measure="7" beat="1.0" duration="2"/>
+		<note id="t2" sound="G4-long" measure="7" beat="1.0" duration="2"/>
+		<note id="t2" sound="A4-long" measure="7" beat="3.0" duration="2"/>
+		<note id="t1" sound="Gb4-long" measure="7" beat="3.0" duration="2"/>
+		<note id="t3" sound="B4-long" measure="8" beat="1.0" duration="2"/>
+		<note id="t2" sound="G4-long" measure="8" beat="1.0" duration="2"/>
+		<note id="t4" sound="Db5-long" measure="8" beat="3.0" duration="2"/>
+		<note id="t3" sound="A4-long" measure="8" beat="3.0" duration="2"/>
+		<note id="t7" sound="Gb5" measure="9" beat="1.0" duration="0.5"/>
+		<note id="t6" sound="D5" measure="9" beat="1.0" duration="0.5"/>
+		<note id="t5" sound="Db5" measure="9" beat="1.50" duration="0.5"/>
+		<note id="t6" sound="D5" measure="9" beat="2" duration="0.5"/>
+		<note id="t3" sound="Gb4" measure="9" beat="2.5" duration="0.5"/>
+		<note id="t6" sound="E5" measure="9" beat="3.0" duration="0.5"/>
+		<note id="t2" sound="E4" measure="9" beat="3.0" duration="0.5"/>
+		<note id="t4" sound="A4" measure="9" beat="3.5" duration="0.5"/>
+		<note id="t3" sound="G4" measure="9" beat="4.0" duration="0.5"/>
+		<note id="t4" sound="A4" measure="9" beat="4.5" duration="0.5"/>
+		<note id="t6" sound="D5" measure="10" beat="1.0" duration="0.5"/>
+		<note id="t3" sound="Gb4" measure="10" beat="1.0" duration="0.5"/>
+		<note id="t6" sound="D5" measure="10" beat="1.5" duration="0.5"/>
+		<note id="t5" sound="Db5" measure="10" beat="2" duration="0.5"/>
+		<note id="t4" sound="B4" measure="10" beat="2.5" duration="0.5"/>
+		<note id="t5" sound="Db5" measure="10" beat="3" duration="0.5"/>
+		<note id="t3" sound="A4" measure="10" beat="3" duration="0.5"/>
+		<note id="t7" sound="Gb5" measure="10" beat="3.5" duration="0.5"/>
+		<note id="t9" sound="A5" measure="10" beat="4" duration="0.5"/>
+		<note id="t10" sound="Db6" measure="10" beat="4.5" duration="0.5"/>
+		<note id="t8" sound="G5" measure="11" beat="1" duration="0.5"/>
+		<note id="t4" sound="B4" measure="11" beat="1" duration="0.5"/>
+		<note id="t7" sound="Gb5" measure="11" beat="1.5" duration="0.5"/>
+		<note id="t6" sound="E5" measure="11" beat="2" duration="0.5"/>
+		<note id="t8" sound="G5" measure="11" beat="2.5" duration="0.5"/>
+		<note id="t7" sound="Gb5" measure="11" beat="3" duration="0.5"/>
+		<note id="t3" sound="A4" measure="11" beat="3" duration="0.5"/>
+		<note id="t6" sound="E5" measure="11" beat="3.5" duration="0.5"/>
+		<note id="t5" sound="D5" measure="11" beat="4" duration="0.5"/>
+		<note id="t4" sound="Db5" measure="11" beat="4.5" duration="0.5"/>
+		<note id="t3" sound="B4" measure="12" beat="1" duration="0.5"/>
+		<note id="t1" sound="G4" measure="12" beat="1" duration="0.5"/>
+		<note id="t2" sound="A4" measure="12" beat="1.5" duration="0.5"/>
+		<note id="t3" sound="B4" measure="12" beat="2" duration="0.5"/>
+		<note id="t5" sound="D5" measure="12" beat="2.5" duration="0.5"/>
+		<note id="t5" sound="D5-long" measure="12" beat="3" duration="1"/>
+		<note id="t1" sound="E4-long" measure="12" beat="3" duration="1"/>
+		<note id="t4" sound="Db5-long" measure="12" beat="4" duration="1"/>
+		<note id="t1" sound="E4-long" measure="12" beat="4" duration="1"/>
+		<note id="t8" sound="A5-long" measure="13" beat="1" duration="0.5"/>
+		<note id="t6" sound="Gb5" measure="13" beat="1.5" duration=".25"/>
+		<note id="t7" sound="G5" measure="13" beat="1.75" duration=".25"/>
+		<note id="t8" sound="A5-long" measure="13" beat="2" duration="0.5"/>
+		<note id="t6" sound="Gb5" measure="13" beat="2.5" duration=".25"/>
+		<note id="t7" sound="G5" measure="13" beat="2.75" duration=".25"/>
+		<note id="t8" sound="A5" measure="13" beat="3" duration="0.25"/>
+		<note id="t1" sound="A4" measure="13" beat="3.25" duration="0.25"/>
+		<note id="t2" sound="B4" measure="13" beat="3.5" duration="0.25"/>
+		<note id="t3" sound="Db5" measure="13" beat="3.75" duration="0.25"/>
+		<note id="t4" sound="D5" measure="13" beat="4" duration="0.25"/>
+		<note id="t5" sound="E5" measure="13" beat="4.25" duration="0.25"/>
+		<note id="t6" sound="Gb5" measure="13" beat="4.5" duration="0.25"/>
+		<note id="t7" sound="G5" measure="13" beat="4.75" duration="0.25"/>
+		<note id="t6" sound="Gb5-long" measure="14" beat="1" duration="0.5"/>
+		<note id="t4" sound="D5" measure="14" beat="1.5" duration="0.25"/>
+		<note id="t5" sound="E5" measure="14" beat="1.75" duration="0.25"/>
+		<note id="t6" sound="Gb5-long" measure="14" beat="2" duration="0.5"/>
+		<note id="t1" sound="Gb4" measure="14" beat="2.5" duration="0.25"/>
+		<note id="t2" sound="G4" measure="14" beat="2.75" duration="0.25"/>
+		<note id="t3" sound="A4" measure="14" beat="3" duration="0.25"/>
+		<note id="t4" sound="B4" measure="14" beat="3.25" duration="0.25"/>
+		<note id="t3" sound="A4" measure="14" beat="3.5" duration="0.25"/>
+		<note id="t2" sound="G4" measure="14" beat="3.75" duration="0.25"/>
+		<note id="t3" sound="A4" measure="14" beat="4" duration="0.25"/>
+		<note id="t1" sound="Gb4" measure="14" beat="4.25" duration="0.25"/>
+		<note id="t2" sound="G4" measure="14" beat="4.5" duration="0.25"/>
+		<note id="t3" sound="A4" measure="14" beat="4.75" duration="0.25"/>
+		<note id="t4" sound="G4-long" measure="15" beat="1" duration="0.5"/>
+		<note id="t6" sound="B4" measure="15" beat="1.5" duration="0.25"/>
+		<note id="t5" sound="A4" measure="15" beat="1.75" duration="0.25"/>
+		<note id="t4" sound="G4-long" measure="15" beat="2" duration="0.5"/>
+		<note id="t3" sound="Gb4" measure="15" beat="2.5" duration="0.25"/>
+		<note id="t2" sound="E4" measure="15" beat="2.75" duration="0.25"/>
+		<note id="t3" sound="Gb4" measure="15" beat="3" duration="0.25"/>
+		<note id="t2" sound="E4" measure="15" beat="3.25" duration="0.25"/>
+		<note id="t1" sound="D4" measure="15" beat="3.5" duration="0.25"/>
+		<note id="t2" sound="E4" measure="15" beat="3.75" duration="0.25"/>
+		<note id="t3" sound="Gb4" measure="15" beat="4" duration="0.25"/>
+		<note id="t4" sound="G4" measure="15" beat="4.25" duration="0.25"/>
+		<note id="t5" sound="A4" measure="15" beat="4.5" duration="0.25"/>
+		<note id="t6" sound="B4" measure="15" beat="4.75" duration="0.25"/>
+		<note id="t4" sound="G4-long" measure="16" beat="1" duration="0.5"/>
+		<note id="t6" sound="B4" measure="16" beat="1.5" duration="0.25"/>
+		<note id="t5" sound="A4" measure="16" beat="1.75" duration="0.25"/>
+		<note id="t6" sound="B4-long" measure="16" beat="2" duration="0.5"/>
+		<note id="t7" sound="Db5" measure="16" beat="2.5" duration="0.25"/>
+		<note id="t8" sound="D5" measure="16" beat="2.75" duration="0.25"/>
+		<note id="t7" sound="Db5" measure="16" beat="3" duration="0.25"/>
+		<note id="t5" sound="B4" measure="16" beat="3.25" duration="0.25"/>
+		<note id="t4" sound="A4" measure="16" beat="3.5" duration="0.25"/>
+		<note id="t5" sound="B4" measure="16" beat="3.75" duration="0.25"/>
+		<note id="t6" sound="Db5" measure="16" beat="4" duration="0.25"/>
+		<note id="t7" sound="D5" measure="16" beat="4.25" duration="0.25"/>
+		<note id="t8" sound="E5" measure="16" beat="4.5" duration="0.25"/>
+		<note id="t9" sound="Gb5" measure="16" beat="4.75" duration="0.25"/>
+		<note id="t8" sound="A5-long" measure="17" beat="1" duration="0.5"/>
+		<note id="t6" sound="Gb5" measure="17" beat="1.5" duration=".25"/>
+		<note id="t7" sound="G5" measure="17" beat="1.75" duration=".25"/>
+		<note id="t8" sound="A5-long" measure="17" beat="2" duration="0.5"/>
+		<note id="t6" sound="Gb5" measure="17" beat="2.5" duration=".25"/>
+		<note id="t7" sound="G5" measure="17" beat="2.75" duration=".25"/>
+		<note id="t8" sound="A5" measure="17" beat="3" duration="0.25"/>
+		<note id="t1" sound="A4" measure="17" beat="3.25" duration="0.25"/>
+		<note id="t2" sound="B4" measure="17" beat="3.5" duration="0.25"/>
+		<note id="t3" sound="Db5" measure="17" beat="3.75" duration="0.25"/>
+		<note id="t4" sound="D5" measure="17" beat="4" duration="0.25"/>
+		<note id="t5" sound="E5" measure="17" beat="4.25" duration="0.25"/>
+		<note id="t6" sound="Gb5" measure="17" beat="4.5" duration="0.25"/>
+		<note id="t7" sound="G5" measure="17" beat="4.75" duration="0.25"/>
+		<note id="t6" sound="Gb5-long" measure="18" beat="1" duration="0.5"/>
+		<note id="t4" sound="D5" measure="18" beat="1.5" duration="0.25"/>
+		<note id="t5" sound="E5" measure="18" beat="1.75" duration="0.25"/>
+		<note id="t6" sound="Gb5-long" measure="18" beat="2" duration="0.5"/>
+		<note id="t1" sound="Gb4" measure="18" beat="2.5" duration="0.25"/>
+		<note id="t2" sound="G4" measure="18" beat="2.75" duration="0.25"/>
+		<note id="t3" sound="A4" measure="18" beat="3" duration="0.25"/>
+		<note id="t4" sound="B4" measure="18" beat="3.25" duration="0.25"/>
+		<note id="t3" sound="A4" measure="18" beat="3.5" duration="0.25"/>
+		<note id="t2" sound="G4" measure="18" beat="3.75" duration="0.25"/>
+		<note id="t3" sound="A4" measure="18" beat="4" duration="0.25"/>
+		<note id="t1" sound="Gb4" measure="18" beat="4.25" duration="0.25"/>
+		<note id="t2" sound="G4" measure="18" beat="4.5" duration="0.25"/>
+		<note id="t3" sound="A4" measure="18" beat="4.75" duration="0.25"/>
+		<note id="t4" sound="G4-long" measure="19" beat="1" duration="0.5"/>
+		<note id="t6" sound="B4" measure="19" beat="1.5" duration="0.25"/>
+		<note id="t5" sound="A4" measure="19" beat="1.75" duration="0.25"/>
+		<note id="t4" sound="G4-long" measure="19" beat="2" duration="0.5"/>
+		<note id="t3" sound="Gb4" measure="19" beat="2.5" duration="0.25"/>
+		<note id="t2" sound="E4" measure="19" beat="2.75" duration="0.25"/>
+		<note id="t3" sound="Gb4" measure="19" beat="3" duration="0.25"/>
+		<note id="t2" sound="E4" measure="19" beat="3.25" duration="0.25"/>
+		<note id="t1" sound="D4" measure="19" beat="3.5" duration="0.25"/>
+		<note id="t2" sound="E4" measure="19" beat="3.75" duration="0.25"/>
+		<note id="t3" sound="Gb4" measure="19" beat="4" duration="0.25"/>
+		<note id="t4" sound="G4" measure="19" beat="4.25" duration="0.25"/>
+		<note id="t5" sound="A4" measure="19" beat="4.5" duration="0.25"/>
+		<note id="t6" sound="B4" measure="19" beat="4.75" duration="0.25"/>
+		<note id="t4" sound="G4-long" measure="20" beat="1" duration="0.5"/>
+		<note id="t6" sound="B4" measure="20" beat="1.5" duration="0.25"/>
+		<note id="t5" sound="A4" measure="20" beat="1.75" duration="0.25"/>
+		<note id="t6" sound="B4-long" measure="20" beat="2" duration="0.5"/>
+		<note id="t7" sound="Db5" measure="20" beat="2.5" duration="0.25"/>
+		<note id="t6" sound="B4" measure="20" beat="2.75" duration="0.25"/>
+		<note id="t7" sound="Db5" measure="20" beat="3" duration="0.25"/>
+		<note id="t8" sound="D5" measure="20" beat="3.25" duration="0.25"/>
+		<note id="t9" sound="E5" measure="20" beat="3.5" duration="0.25"/>
+		<note id="t8" sound="D5" measure="20" beat="3.75" duration="0.25"/>
+		<note id="t7" sound="Db5" measure="20" beat="4" duration="0.25"/>
+		<note id="t8" sound="D5" measure="20" beat="4.25" duration="0.25"/>
+		<note id="t6" sound="B4-long" measure="20" beat="4.5" duration="0.5"/>
+		<note id="t9" sound="A5-long" measure="21" beat="1" duration="1"/>
+		<note id="t7" sound="Gb5-long" measure="21" beat="1" duration="1"/>
+		<note id="t7" sound="Gb5" measure="21" beat="2" duration=".5"/>
+		<note id="t9" sound="A5" measure="21" beat="2.5" duration=".5"/>
+		<note id="t9" sound="A5" measure="21" beat="3" duration=".5"/>
+		<note id="t6" sound="Gb5" measure="21" beat="3" duration=".5"/>
+		<note id="t10" sound="B5" measure="21" beat="3.5" duration=".5"/>
+		<note id="t9" sound="A5" measure="21" beat="4" duration=".5"/>
+		<note id="t6" sound="Db5" measure="21" beat="4" duration=".5"/>
+		<note id="t8" sound="G5" measure="21" beat="4.5" duration=".5"/>
+		<note id="t7" sound="Gb5-long" measure="22" beat="1" duration="1"/>
+		<note id="t5" sound="D5-long" measure="22" beat="1" duration="1"/>
+		<note id="t5" sound="D5" measure="22" beat="2" duration=".5"/>
+		<note id="t7" sound="Gb5" measure="22" beat="2.5" duration=".5"/>
+		<note id="t7" sound="Gb5" measure="22" beat="3" duration=".5"/>
+		<note id="t4" sound="Db5" measure="22" beat="3" duration=".5"/>
+		<note id="t8" sound="G5" measure="22" beat="3.5" duration=".5"/>
+		<note id="t7" sound="Gb5" measure="22" beat="4" duration=".5"/>
+		<note id="t3" sound="A4" measure="22" beat="4" duration=".5"/>
+		<note id="t6" sound="E5" measure="22" beat="4.5" duration=".5"/>
+		<note id="t5" sound="D5-long" measure="23" beat="1" duration="1"/>
+		<note id="t3" sound="B4-long" measure="23" beat="1" duration="1"/>
+		<note id="t3" sound="B4" measure="23" beat="2" duration=".5"/>
+		<note id="t5" sound="D5" measure="23" beat="2.5" duration=".5"/>
+		<note id="t5" sound="D5-long" measure="23" beat="3" duration="1"/>
+		<note id="t2" sound="A4-long" measure="23" beat="3" duration="1"/>
+		<note id="t1" sound="Gb4" measure="23" beat="4" duration=".5"/>
+		<note id="t5" sound="D5" measure="23" beat="4.5" duration=".5"/>
+		<note id="t5" sound="D5" measure="24" beat="1" duration=".5"/>
+		<note id="t2" sound="G4" measure="24" beat="1" duration=".5"/>
+		<note id="t4" sound="C5" measure="24" beat="1.5" duration=".5"/>
+		<note id="t3" sound="B4" measure="24" beat="2" duration=".5"/>
+		<note id="t4" sound="C5" measure="24" beat="2.5" duration=".5"/>
+		<note id="t5" sound="Db5" measure="24" beat="3" duration="1"/>
+		<note id="t3" sound="A4" measure="24" beat="3" duration="1"/>
+		<note id="t6" sound="Gb5" measure="24" beat="4" duration=".5"/>
+		<note id="t1" sound="Gb4" measure="24" beat="4" duration=".5"/>
+		<note id="t6" sound="G5" measure="24" beat="4.5" duration=".5"/>
+		<note id="t2" sound="G4" measure="24" beat="4.5" duration=".5"/>
+		<note id="t7" sound="A5" measure="25" beat="1" duration=".25"/>
+		<note id="t3" sound="A4" measure="25" beat="1.25" duration=".25"/>
+		<note id="t4" sound="D5" measure="25" beat="1.5" duration=".25"/>
+		<note id="t5" sound="A5" measure="25" beat="1.75" duration=".25"/>
+		<note id="t7" sound="A5" measure="25" beat="2" duration=".25"/>
+		<note id="t5" sound="A5" measure="25" beat="2.25" duration=".25"/>
+		<note id="t4" sound="D5" measure="25" beat="2.5" duration=".25"/>
+		<note id="t3" sound="A4" measure="25" beat="2.75" duration=".25"/>
+		<note id="t7" sound="A5" measure="25" beat="3" duration=".25"/>
+		<note id="t2" sound="A4" measure="25" beat="3.25" duration=".25"/>
+		<note id="t8" sound="B5" measure="25" beat="3.5" duration=".25"/>
+		<note id="t2" sound="B4" measure="25" beat="3.75" duration=".25"/>
+		<note id="t7" sound="A5" measure="25" beat="4" duration=".25"/>
+		<note id="t2" sound="A4" measure="25" beat="4.25" duration=".25"/>
+		<note id="t6" sound="G5" measure="25" beat="4.5" duration=".25"/>
+		<note id="t2" sound="G4" measure="25" beat="4.75" duration=".25"/>
+		<note id="t5" sound="Gb5" measure="26" beat="1" duration=".25"/>
+		<note id="t2" sound="Gb4" measure="26" beat="1.25" duration=".25"/>
+		<note id="t3" sound="B5" measure="26" beat="1.5" duration=".25"/>
+		<note id="t4" sound="D5" measure="26" beat="1.75" duration=".25"/>
+		<note id="t5" sound="Gb5" measure="26" beat="2" duration=".25"/>
+		<note id="t4" sound="D5" measure="26" beat="2.25" duration=".25"/>
+		<note id="t3" sound="B5" measure="26" beat="2.5" duration=".25"/>
+		<note id="t2" sound="Gb4" measure="26" beat="2.75" duration=".25"/>
+		<note id="t5" sound="Gb5" measure="26" beat="3" duration=".25"/>
+		<note id="t2" sound="Gb4" measure="26" beat="3.25" duration=".25"/>
+		<note id="t6" sound="G5" measure="26" beat="3.5" duration=".25"/>
+		<note id="t2" sound="G4" measure="26" beat="3.75" duration=".25"/>
+		<note id="t5" sound="Gb5" measure="26" beat="4" duration=".25"/>
+		<note id="t2" sound="Gb4" measure="26" beat="4.25" duration=".25"/>
+		<note id="t4" sound="E5" measure="26" beat="4.5" duration=".25"/>
+		<note id="t2" sound="E4" measure="26" beat="4.75" duration=".25"/>
+		<note id="t4" sound="D5" measure="27" beat="1" duration=".25"/>
+		<note id="t1" sound="D4" measure="27" beat="1.25" duration=".25"/>
+		<note id="t2" sound="G4" measure="27" beat="1.5" duration=".25"/>
+		<note id="t3" sound="B4" measure="27" beat="1.75" duration=".25"/>
+		<note id="t4" sound="D5" measure="27" beat="2" duration=".25"/>
+		<note id="t3" sound="B4" measure="27" beat="2.25" duration=".25"/>
+		<note id="t2" sound="G4" measure="27" beat="2.5" duration=".25"/>
+		<note id="t1" sound="D4" measure="27" beat="2.75" duration=".25"/>
+		<note id="t4" sound="D5" measure="27" beat="3" duration=".25"/>
+		<note id="t1" sound="D4" measure="27" beat="3.25" duration=".25"/>
+		<note id="t2" sound="Gb4" measure="27" beat="3.5" duration=".25"/>
+		<note id="t3" sound="A4" measure="27" beat="3.75" duration=".25"/>
+		<note id="t5" sound="Gb5" measure="27" beat="4" duration=".25"/>
+		<note id="t2" sound="Gb4" measure="27" beat="4.25" duration=".25"/>
+		<note id="t3" sound="A4" measure="27" beat="4.5" duration=".25"/>
+		<note id="t4" sound="D5" measure="27" beat="4.75" duration=".25"/>
+		<note id="t5" sound="G5" measure="28" beat="1" duration=".25"/>
+		<note id="t2" sound="G4" measure="28" beat="1.25" duration=".25"/>
+		<note id="t3" sound="B4" measure="28" beat="1.5" duration=".25"/>
+		<note id="t4" sound="D5" measure="28" beat="1.75" duration=".25"/>
+		<note id="t7" sound="B5" measure="28" beat="2" duration=".25"/>
+		<note id="t3" sound="B4" measure="28" beat="2.25" duration=".25"/>
+		<note id="t4" sound="D5" measure="28" beat="2.5" duration=".25"/>
+		<note id="t5" sound="G5" measure="28" beat="2.75" duration=".25"/>
+		<note id="t6" sound="A5" measure="28" beat="3" duration=".25"/>
+		<note id="t4" sound="A4" measure="28" beat="3.25" duration=".25"/>
+		<note id="t5" sound="Db5" measure="28" beat="3.5" duration=".25"/>
+		<note id="t6" sound="E5" measure="28" beat="3.75" duration=".25"/>
+		<note id="t7" sound="B5-long" measure="28" beat="4" duration=".5"/>
+		<note id="t3" sound="B4-long" measure="28" beat="4" duration=".5"/>
+		<note id="t8" sound="Db6-long" measure="28" beat="4.5" duration=".5"/>
+		<note id="t4" sound="Db5-long" measure="28" beat="4.5" duration=".5"/>
+		<note id="t6" sound="B5-long" measure="29" beat="1" duration="1"/>
+		<note id="t4" sound="A5-long" measure="29" beat="1" duration="1"/>
+		<note id="t3" sound="Gb5-long" measure="29" beat="1" duration="1"/>
+		<note id="t5" sound="D5-long" measure="29" beat="2" duration="1"/>
+		<note id="t3" sound="A4-long" measure="29" beat="2" duration="1"/>
+		<note id="t2" sound="Gb4-long" measure="29" beat="2" duration="1"/>
+		<note id="t5" sound="Db5-long" measure="29" beat="3" duration="0.75"/>
+		<note id="t4" sound="A4-long" measure="29" beat="3" duration="0.75"/>
+		<note id="t3" sound="E4-long" measure="29" beat="3" duration="0.75"/>
+		<note id="t8" sound="Db6" measure="29" beat="3.75" duration=".25"/>
+		<note id="t7" sound="A5" measure="29" beat="4" duration=".25"/>
+		<note id="t6" sound="E5" measure="29" beat="4.25" duration=".25"/>
+		<note id="t5" sound="Db5" measure="29" beat="4.5" duration=".5"/>
+		<note id="t6" sound="B5-long" measure="30" beat="1" duration="1"/>
+		<note id="t4" sound="Gb5-long" measure="30" beat="1" duration="1"/>
+		<note id="t3" sound="D5-long" measure="30" beat="1" duration="1"/>
+		<note id="t5" sound="B4-long" measure="30" beat="2" duration="1"/>
+		<note id="t2" sound="Gb4-long" measure="30" beat="2" duration="1"/>
+		<note id="t1" sound="D4-long" measure="30" beat="2" duration="1"/>
+		<note id="t3" sound="A4-long" measure="30" beat="3" duration="0.75"/>
+		<note id="t2" sound="Gb4-long" measure="30" beat="3" duration="0.75"/>
+		<note id="t1" sound="C3-long" measure="30" beat="3" duration="0.75"/>
+		<note id="t8" sound="A5" measure="30" beat="3.75" duration=".25"/>
+		<note id="t7" sound="Gb5" measure="30" beat="4" duration=".25"/>
+		<note id="t6" sound="Db5" measure="30" beat="4.25" duration=".25"/>
+		<note id="t5" sound="A4" measure="30" beat="4.5" duration=".25"/>
+		<note id="t6" sound="Db5" measure="30" beat="4.75" duration=".25"/>
+		<note id="t8" sound="G5-long" measure="31" beat="1" duration="1"/>
+		<note id="t7" sound="D5-long" measure="31" beat="1" duration="1"/>
+		<note id="t6" sound="B4-long" measure="31" beat="1" duration="1"/>
+		<note id="t4" sound="G4-long" measure="31" beat="2" duration="1"/>
+		<note id="t2" sound="D4-long" measure="31" beat="2" duration="1"/>
+		<note id="t1" sound="B3-long" measure="31" beat="2" duration="1"/>
+		<note id="t3" sound="Gb4-long" measure="31" beat="3" duration="1"/>
+		<note id="t2" sound="D4-long" measure="31" beat="3" duration="1"/>
+		<note id="t1" sound="A3-long" measure="31" beat="3" duration="1"/>
+		<note id="t8" sound="Gb5-long" measure="31" beat="4" duration="1"/>
+		<note id="t3" sound="G4-long" measure="32" beat="1" duration="1"/>
+		<note id="t2" sound="D4-long" measure="32" beat="1" duration="1"/>
+		<note id="t1" sound="B3-long" measure="32" beat="1" duration="1"/>
+		<note id="t6" sound="B5-long" measure="32" beat="2" duration="1"/>
+		<note id="t5" sound="G5-long" measure="32" beat="2" duration="1"/>
+		<note id="t4" sound="D5-long" measure="32" beat="2" duration="1"/>
+		<note id="t4" sound="Db5" measure="32" beat="3" duration=".5"/>
+		<note id="t3" sound="A4" measure="32" beat="3" duration=".5"/>
+		<note id="t2" sound="E4" measure="32" beat="3" duration=".5"/>
+		<note id="t5" sound="E5" measure="32" beat="3.5" duration=".5"/>
+		<note id="t4" sound="Db5" measure="32" beat="3.5" duration=".5"/>
+		<note id="t3" sound="A4" measure="32" beat="3.5" duration=".5"/>
+		<note id="t6" sound="A5" measure="32" beat="4" duration=".5"/>
+		<note id="t5" sound="E5" measure="32" beat="4" duration=".5"/>
+		<note id="t4" sound="Db5" measure="32" beat="4" duration=".5"/>
+		<note id="t7" sound="Db6" measure="32" beat="4.5" duration=".5"/>
+		<note id="t6" sound="A5" measure="32" beat="4.5" duration=".5"/>
+		<note id="t5" sound="E5" measure="32" beat="4.5" duration=".5"/>
+		<note id="t7" sound="D6-long" measure="33" beat="1" duration="2"/>
+		<note id="t6" sound="A5-long" measure="33" beat="1" duration="2"/>
+		<note id="t5" sound="Gb5-long" measure="33" beat="1" duration="2"/>
+		<note id="t1" sound="A3" measure="33" beat="3" duration=".5"/>
+		<note id="t3" sound="D4" measure="33" beat="3.5" duration=".5"/>
+		<note id="t5" sound="Gb4" measure="33" beat="4" duration=".5"/>
+		<note id="t7" sound="A4" measure="33" beat="4.5" duration=".5"/>
+		<note id="t8" sound="D6-long" measure="34" beat="1" duration="3"/>
+		<note id="t7" sound="A5-long" measure="34" beat="1" duration="3"/>
+		<note id="t6" sound="Gb5-long" measure="34" beat="1" duration="3"/>
+	</music>
+</level>
